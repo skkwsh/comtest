@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+"traceEvents":[
+{ "cat":"", "pid":1, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"tundra" } }
+,{ "pid":1, "tid":0, "ts":1564197786796398, "dur":24311796, "ph":"X", "name": "Tundra", "args": { "durationMS":24312, "detail":"InitData" }}
+,{ "pid":1, "tid":0, "ts":1564197811108255, "dur":4, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"RemoveStaleOutputs" }}
+,{ "pid":1, "tid":0, "ts":1564197811108259, "dur":12, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"PrepareNodes" }}
+,{ "pid":1, "tid":0, "ts":1564197811108271, "dur":139, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"BuildQueueInit" }}
+,{ "pid":1, "tid":0, "ts":1564197829245694, "dur":516, "ph":"X", "name": "Tundra", "args": { "durationMS":1, "detail":"BuildQueueDestroy" }}
+,{ "pid":1, "tid":0, "ts":1564197829246210, "dur":427, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"SaveState" }}
+,{ "pid":1, "tid":10, "ts":1564197811108422, "dur":75, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":10, "ts":1564197811108562, "dur":1818540, "ph":"X", "name": "Download", "args": { "durationMS":1819, "detail":"and unpack artifacts/Stevedore/7za-mac-x64/.StevedoreVersion" }}
+,{ "pid":1, "tid":10, "ts":1564197812927174, "dur":91, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":10, "ts":1564197812927352, "dur":16317307, "ph":"X", "name": "Download", "args": { "durationMS":16317, "detail":"and unpack artifacts/Stevedore/tiny-dist/.StevedoreVersion" }}
+,{ "pid":1, "tid":10, "ts":1564197829244736, "dur":895, "ph":"X", "name": "Tundra", "args": { "durationMS":1, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":11, "ts":1564197812927195, "dur":123, "ph":"X", "name": "Tundra", "args": { "durationMS":0, "detail":"CheckInputSignature" }}
+,{ "pid":1, "tid":11, "ts":1564197812927518, "dur":9254400, "ph":"X", "name": "Download", "args": { "durationMS":9254, "detail":"and unpack artifacts/Stevedore/tiny-samples/.StevedoreVersion" }}
+
+]
+}
